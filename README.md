@@ -108,6 +108,7 @@ name1 = 'Andrei'
 name2 = 'Sunny'
 print(f'Hello there {name1} and {name2}')       # Hello there Andrei and Sunny - Newer way to do things as of python 3.6
 print('Hello there {}, {}'.format(name1, name2))# Hello there Andrei and Sunny
+print('Hello there {1} and {0}'.format(name2,name1)) #Hello there Andrei and Sunny
 print('Hello there %s and %s' %(name1, name2))  # Hello there Andrei and Sunny --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
 ```
 
